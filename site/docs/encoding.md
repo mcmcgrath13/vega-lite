@@ -23,6 +23,10 @@ An integral part of the data visualization process is encoding data with visual 
     "xError2": ...,
     "yError2": ...,
 
+    // Position Offset Channels
+    "xOffset": ...,
+    "yOffset": ...,
+
     // Polar Position Channels
     "theta": ...,
     "radius": ...,
@@ -215,7 +219,7 @@ In addition to the general [field definition properties](#field-def), field defi
 
 {:#positon-offset}
 
-## Position Offset Channels {% include tag ver="5.2" %}
+## Position Offset Channels {% include tag.html ver="5.2" %}
 
 `xOffset` and `yOffset` position channels determine additional offset to the `x` or `y` position.
 

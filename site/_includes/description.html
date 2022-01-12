@@ -4,6 +4,7 @@
   {% else %}
     {{ include.source.description | markdownify }}
   {% endif %}
+  {% if include.source.version %}{% include tag.html ver=include.source.version %}{% endif %}
 {% else %}
   {% comment %}
     HACK: for nullable description

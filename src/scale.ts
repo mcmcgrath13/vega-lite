@@ -199,11 +199,12 @@ export interface ScaleConfig<ES extends ExprRef | SignalRef> {
    *
    * @minimum 0
    * @maximum 1
+   * @version 5.2
    */
   bandWithNestedOffsetPaddingInner?: number | ES;
 
   /**
-   * Default outer padding for `x` and `y` band scales with nested `xOffset` and `yOffset` encoding.
+   * Default outer padding for `x` and `y` band scales with nested `xOffset` and `yOffset` encoding. <span class="tag version" title="Requires version 5.2 or later">≥&nbsp;5.2</span>
    *
    * __Default value:__ `0.2`
    *

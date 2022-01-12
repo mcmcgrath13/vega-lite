@@ -429,7 +429,20 @@ footer .edit-page {
   margin-top: 8px;
   display: block;
 }
+.tag {
+  font-size: 0.8em;
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 0.15em 0.3em;
+}
 
+.tag.version {
+  background-color: #0078a0;
+  color: #ffffff;
+}
 /* Announcement */
 .announcement {
   padding: 0.6em 0;
